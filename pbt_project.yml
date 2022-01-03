@@ -7,11 +7,26 @@ workflows:
     name: Customers Report
     description: Workflow description
     author: null
-    createdAt: '2021-12-05 10:10:10'
-    language: scala
     mode: batch
+    language: scala
+    createdAt: '2021-12-05 10:10:10'
+    datasets:
+      inputs: []
+      outputs: []
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: cecille.johns@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-03 16:59:39'
     datasets:
       inputs: []
       outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Patricia_Quitzon:
+    name: Patricia_Quitzon
+    description: Really solid info
+    createdAt: '2022-01-03 16:59:39'
+    author: cecille.johns@yahoo.com
